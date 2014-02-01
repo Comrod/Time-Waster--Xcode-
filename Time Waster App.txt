@@ -1,0 +1,18 @@
+Time Waster App
+
+Notes:
+Pages that open and then are moved on to will be from random assortment
+
+Pages:
+1. Start Wasting Time (Start page)
+	1. Reddit (opens webpage in app to Reddit) (maybe specific subreddits)
+	2. House realtors
+	3. Facebook
+	4. Movies (go to movies in theaters)
+	5. Plane flights (holiday destinations)
+	6. Other iOS apps
+	7. Video games (recommended ones)
+	8. Funny quotes
+	9. Random facts
+	10. Books (recommended ones)
+	11. Random patents (USPO)
