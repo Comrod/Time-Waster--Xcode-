@@ -8,6 +8,7 @@
 
 #import "Action1ViewController.h"
 #import "A1NavViewController.h"
+#import "A2NavViewController.h"
 
 @interface Action1ViewController ()
 
@@ -15,7 +16,7 @@
 
 @implementation Action1ViewController
 
-@synthesize homeButton, wantMoreButton, browser, back, forward, refresh, pageArray, starterURL;
+@synthesize homeButton, wantMoreButton, browser, back, forward, refresh, starterURL;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -32,6 +33,7 @@
 	// Do any additional setup after loading the view.
     
     [self pickPage];
+    vcArray = [NSArray arrayWithObjects:@"a1VC", @"a2VC", nil];
 }
 
 - (void)pickPage
@@ -65,9 +67,26 @@
 
 - (IBAction)wantMoreButtonPress:(id)sender
 {
-    A1NavViewController *a1navVC = [self.storyboard instantiateViewControllerWithIdentifier:@"a1navVC"];
-    a1navVC.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
-    [self presentViewController:a1navVC animated:YES completion:nil];
+    
+    NSUInteger randomIndex = arc4random()% [vcArray count];
+    NSString *a1VCString = @"a1VC";
+    NSString *a2VCString = @"a2VC";
+    NSString *pickedVC = [vcArray objectAtIndex:randomIndex];
+    
+    if (pickedVC == a1VCString)
+    {
+        NSLog(@"Going to Action 1 VC");
+        A1NavViewController *a1navVC = [self.storyboard instantiateViewControllerWithIdentifier:@"a1navVC"];
+        a1navVC.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+        [self presentViewController:a1navVC animated:YES completion:nil];
+    }
+    else if (pickedVC == a2VCString)
+    {
+        NSLog(@"Going to Action 2 VC");
+        A2NavViewController *a2navVC = [self.storyboard instantiateViewControllerWithIdentifier:@"a2navVC"];
+        a2navVC.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+        [self presentViewController:a2navVC animated:YES completion:nil];
+    }
 }
 
 - (IBAction)backButtonPress:(id)sender

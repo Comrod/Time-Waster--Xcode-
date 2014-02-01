@@ -2,6 +2,7 @@ Time Waster App
 
 Notes:
 Pages that open and then are moved on to will be from random assortment
+Add singletons for global variables
 
 Pages:
 1. Start Wasting Time (Start page)

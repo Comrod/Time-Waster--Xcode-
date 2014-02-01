@@ -14,6 +14,8 @@
 
 @implementation Action2ViewController
 
+@synthesize timesTapped, homeButton, wantMoreButton;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -27,6 +29,33 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    
+    [self.view setMultipleTouchEnabled:YES];
+    totalTouches = 0;
+    timesTapped.text = @"0 taps";
+}
+
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    NSLog(@"Touch started");
+    [super touchesBegan:touches withEvent:event];
+}
+
+- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    NSLog(@"touch ended");
+    [super touchesEnded:touches withEvent:event];
+    
+    NSUInteger touchCount = [touches count];
+    int touchCountInt = (int)touchCount;
+    if (touchCountInt > 1)
+    {
+        touchCountInt = 1;
+    }
+    totalTouches = touchCountInt + totalTouches;
+    
+    NSLog(@"Total touches: %d", totalTouches);
+    timesTapped.text = [NSString stringWithFormat:@"%d", totalTouches];
 }
 
 - (void)didReceiveMemoryWarning

@@ -8,6 +8,17 @@
 
 #import "ViewController.h"
 
-@interface Action2ViewController : UITableViewController <UITableViewDelegate, UITableViewDataSource>
+@interface Action2ViewController : ViewController
+{
+    int totalTouches;
+}
+
+@property (strong, nonatomic) IBOutlet UILabel *timesTapped;
+@property (strong, nonatomic) IBOutlet UIBarButtonItem *homeButton;
+@property (strong, nonatomic) IBOutlet UIBarButtonItem *wantMoreButton;
+
+
+- (IBAction)homeButtonPressed:(id)sender;
+- (IBAction)wantMoreButtonPressed:(id)sender;
 
 @end

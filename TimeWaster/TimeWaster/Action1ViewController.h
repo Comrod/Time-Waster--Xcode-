@@ -9,6 +9,10 @@
 #import "ViewController.h"
 
 @interface Action1ViewController : ViewController
+{
+    NSArray *pageArray;
+    NSArray *vcArray;
+}
 
 //Main
 @property (nonatomic, strong) IBOutlet UIBarButtonItem *homeButton;
@@ -16,7 +20,6 @@
 
 //Browser
 @property (nonatomic, strong) IBOutlet UIWebView *browser;
-@property (nonatomic, strong) IBOutlet NSArray *pageArray;
 @property (nonatomic, strong) IBOutlet NSURL *starterURL;
 @property (nonatomic, strong) IBOutlet UIBarButtonItem *back;
 @property (nonatomic, strong) IBOutlet UIBarButtonItem *forward;
