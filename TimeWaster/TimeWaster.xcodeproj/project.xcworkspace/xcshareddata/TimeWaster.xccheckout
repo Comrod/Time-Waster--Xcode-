@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>816F8792-6F47-493B-93C4-0013F162115A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TimeWaster</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D6A86943-1F98-4512-8FB1-185B04A9A141</key>
+		<string>https://github.com/Comrod/Time-Waster--Xcode-.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TimeWaster/TimeWaster.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D6A86943-1F98-4512-8FB1-185B04A9A141</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Comrod/Time-Waster--Xcode-.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D6A86943-1F98-4512-8FB1-185B04A9A141</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D6A86943-1F98-4512-8FB1-185B04A9A141</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Time Waster (Xcode)</string>
+		</dict>
+	</array>
+</dict>
+</plist>

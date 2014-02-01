@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2403F960189C9EBE0054187E /* A1NavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2403F95F189C9EBE0054187E /* A1NavViewController.m */; };
+		2403F965189CAD020054187E /* A2NavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2403F964189CAD020054187E /* A2NavViewController.m */; };
+		2403F969189CAD460054187E /* Action2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2403F968189CAD460054187E /* Action2ViewController.m */; };
 		247DA4A6189ADE3B00563D6D /* Action1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 247DA4A5189ADE3B00563D6D /* Action1ViewController.m */; };
 		2481C1541867E8ED00A39ED3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2481C1531867E8ED00A39ED3 /* Foundation.framework */; };
 		2481C1561867E8ED00A39ED3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2481C1551867E8ED00A39ED3 /* CoreGraphics.framework */; };
@@ -38,6 +40,10 @@
 /* Begin PBXFileReference section */
 		2403F95E189C9EBE0054187E /* A1NavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A1NavViewController.h; sourceTree = "<group>"; };
 		2403F95F189C9EBE0054187E /* A1NavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A1NavViewController.m; sourceTree = "<group>"; };
+		2403F963189CAD020054187E /* A2NavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A2NavViewController.h; sourceTree = "<group>"; };
+		2403F964189CAD020054187E /* A2NavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A2NavViewController.m; sourceTree = "<group>"; };
+		2403F967189CAD460054187E /* Action2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Action2ViewController.h; sourceTree = "<group>"; };
+		2403F968189CAD460054187E /* Action2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Action2ViewController.m; sourceTree = "<group>"; };
 		247DA4A4189ADE3B00563D6D /* Action1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Action1ViewController.h; sourceTree = "<group>"; };
 		247DA4A5189ADE3B00563D6D /* Action1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Action1ViewController.m; sourceTree = "<group>"; };
 		2481C1501867E8ED00A39ED3 /* TimeWaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeWaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,6 +97,7 @@
 				2481C1681867E8ED00A39ED3 /* ViewController.h */,
 				2481C1691867E8ED00A39ED3 /* ViewController.m */,
 				2403F962189C9EE00054187E /* Action 1 */,
+				2403F966189CAD050054187E /* Action 2 */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -104,6 +111,17 @@
 				247DA4A5189ADE3B00563D6D /* Action1ViewController.m */,
 			);
 			name = "Action 1";
+			sourceTree = "<group>";
+		};
+		2403F966189CAD050054187E /* Action 2 */ = {
+			isa = PBXGroup;
+			children = (
+				2403F963189CAD020054187E /* A2NavViewController.h */,
+				2403F964189CAD020054187E /* A2NavViewController.m */,
+				2403F967189CAD460054187E /* Action2ViewController.h */,
+				2403F968189CAD460054187E /* Action2ViewController.m */,
+			);
+			name = "Action 2";
 			sourceTree = "<group>";
 		};
 		2481C1471867E8ED00A39ED3 = {
@@ -278,8 +296,10 @@
 				2403F960189C9EBE0054187E /* A1NavViewController.m in Sources */,
 				247DA4A6189ADE3B00563D6D /* Action1ViewController.m in Sources */,
 				2481C16A1867E8ED00A39ED3 /* ViewController.m in Sources */,
+				2403F965189CAD020054187E /* A2NavViewController.m in Sources */,
 				2481C1641867E8ED00A39ED3 /* AppDelegate.m in Sources */,
 				2481C1601867E8ED00A39ED3 /* main.m in Sources */,
+				2403F969189CAD460054187E /* Action2ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
